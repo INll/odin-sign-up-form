@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="left">
+    <img class="bannerBackground" src="halie-west-25xggax4bSA-unsplash.jpg" alt="Image of Plant as Background">
+    <div class="bannerContainer">
+      <div class="banner">
+        <img class="logo" src="./odin-lined.png" alt="Logo of TOP" class="logo">
+        <p class="odin-text">
+          ODIN
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <div class="intro-text">
+      <div class="text">
+        <div class="first-para">
+          This is not a real online service! You know you need something like this in your
+          life to help you realize your deepest dreams. <br>
+          Sign up <em>now</em> to get started.
+        </div>
+        <div class="second-para">
+          You <em>know</em> you want to.
+        </div>
+      </div>
+    </div>
+    <div class="form-container">
+      <div class="form-heading">Let's do this!</div>
+      <form action="#" class="post" autocomplete="off">
+        <div class="form-ctrl">
+          <div class="firstName-wrapper">
+            <label for="firstName">FIRST NAME</label><br>
+            <input type="text" id="firstName" name="firstName" required>
+          </div>
+          <div class="lastName-wrapper">
+            <label for="lastNmae">LAST NAME</label><br>
+            <input type="text" id="lastName" name="lastName" required>
+          </div>
+          <div class="email-wrapper">
+            <label for="lastNmae">EMAIL</label><br>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="phoneNum-wrapper">
+            <label for="phoneNum">PHONE NUMBER</label><br>
+            <input type="number" id="phoneNum" name="phoneNum" required>
+          </div>
+          <div class="pwd-wrapper">
+            <label for="pwd">PASSWORD</label><br>
+            <input class="pwd" type="password" id="pwd" name="pwd" required><br>
+            <span class="pwError"></span>
+          </div>
+          <div class="confirmation-wrapper">
+            <label for="confirmation">CONFIRM PASSWORD</label><br>
+            <input class="pwdC" type="password" id="confirmation" name="confirmation" required><br>
+            <span class="pwcError"></span>
+          </div>
+        </div>
+        <div class="bottom-row-positioning">
+          <div class="buttons">
+            <button type="submit" class="button-9">Create Account</button>
+            <div class="button-text">
+              Already have an account? <a href="./index.html">Log in</a>
+            </div>
+          </div>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
